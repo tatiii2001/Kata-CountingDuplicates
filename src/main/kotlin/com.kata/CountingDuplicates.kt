@@ -12,7 +12,6 @@ class CountingDuplicates(private val word: String) {
                 countDuplicates ++
             }
         }
-
         return countDuplicates
     }
 

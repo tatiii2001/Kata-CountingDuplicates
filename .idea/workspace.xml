@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6004e6d-0d6d-4be1-b1b1-1286ecc8209a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com.kata/CountingDuplicates.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/kata/CountingDuplicatesShould.kt" afterDir="false" />
+    <list default="true" id="e6004e6d-0d6d-4be1-b1b1-1286ecc8209a" name="Changes" comment="Create the CountingDuplicates class and implement the function for count the letters duplicates in the same word, and implement the test for different scenarios">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,33 +56,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build Kata-CountingDuplicates.executor": "Run",
-    "Gradle.CountingDuplicatesShould (1).executor": "Run",
-    "Gradle.CountingDuplicatesShould.executor": "Run",
-    "Gradle.CountingDuplicatesShould.only string and numeric input values.executor": "Run",
-    "Kotest.CountingDuplicatesShould: repeated in the word (1).executor": "Run",
-    "Kotest.CountingDuplicatesShould: repeated in the word (2).executor": "Run",
-    "Kotest.CountingDuplicatesShould: repeated in the word (3).executor": "Run",
-    "Kotest.CountingDuplicatesShould: repeated in the word (4).executor": "Run",
-    "Kotest.CountingDuplicatesShould: repeated in the word (5).executor": "Run",
-    "Kotest.CountingDuplicatesShould: repeated in the word ABB4588lkkoopByy (1).executor": "Run",
-    "Kotest.CountingDuplicatesShould: repeated in the word ABB4588lkkoopByy.executor": "Run",
-    "Kotest.CountingDuplicatesShould: repeated in the word ABb4588lkkoopyy (1).executor": "Run",
-    "Kotest.CountingDuplicatesShould: repeated in the word ABb4588lkkoopyy (2).executor": "Run",
-    "Kotest.CountingDuplicatesShould: repeated in the word ABb4588lkkoopyy (3).executor": "Run",
-    "Kotest.CountingDuplicatesShould: repeated in the word ABb4588lkkoopyy.executor": "Run",
-    "Kotest.CountingDuplicatesShould: repeated in the word Indivisibilities (1).executor": "Run",
-    "Kotest.CountingDuplicatesShould: repeated in the word Indivisibilities.executor": "Run",
-    "Kotest.CountingDuplicatesShould: repeated in the word.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Tati/proyectos/Kata-CountingDuplicates"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build Kata-CountingDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CountingDuplicatesShould (1).executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CountingDuplicatesShould.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.CountingDuplicatesShould.only string and numeric input values.executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.CountingDuplicatesShould: repeated in the word (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.CountingDuplicatesShould: repeated in the word (2).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.CountingDuplicatesShould: repeated in the word (3).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.CountingDuplicatesShould: repeated in the word (4).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.CountingDuplicatesShould: repeated in the word (5).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.CountingDuplicatesShould: repeated in the word ABB4588lkkoopByy (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.CountingDuplicatesShould: repeated in the word ABB4588lkkoopByy.executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.CountingDuplicatesShould: repeated in the word ABb4588lkkoopyy (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.CountingDuplicatesShould: repeated in the word ABb4588lkkoopyy (2).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.CountingDuplicatesShould: repeated in the word ABb4588lkkoopyy (3).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.CountingDuplicatesShould: repeated in the word ABb4588lkkoopyy.executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.CountingDuplicatesShould: repeated in the word Indivisibilities (1).executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.CountingDuplicatesShould: repeated in the word Indivisibilities.executor&quot;: &quot;Run&quot;,
+    &quot;Kotest.CountingDuplicatesShould: repeated in the word.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Tati/proyectos/Kata-RockPaperScissors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateKotlinClassDialog.RecentsKey">
       <recent name="com.kata" />
@@ -212,6 +199,19 @@
       <option name="presentableId" value="Default" />
       <updated>1711366914394</updated>
     </task>
+    <task id="LOCAL-00001" summary="Create the CountingDuplicates class and implement the function for count the letters duplicates in the same word, and implement the test for different scenarios">
+      <option name="closed" value="true" />
+      <created>1711980142530</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711980142530</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create the CountingDuplicates class and implement the function for count the letters duplicates in the same word, and implement the test for different scenarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create the CountingDuplicates class and implement the function for count the letters duplicates in the same word, and implement the test for different scenarios" />
   </component>
 </project>

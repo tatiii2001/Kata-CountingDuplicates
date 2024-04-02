@@ -9,8 +9,8 @@ class CountingDuplicatesShould : DescribeSpec({
     *   Return the number of repeated elements
      */
 
-    describe("return the number of repeated elements"){
-        it("repeated in the word abbadc12"){
+    describe("return the number of repeated"){
+        it("in the word abbadc12"){
             val word = CountingDuplicates("abbadc12")
 
             val result = word.countDuplicate()
@@ -18,7 +18,7 @@ class CountingDuplicatesShould : DescribeSpec({
             result.shouldBe(2)
         }
 
-        it("repeated in the word indivisibility"){
+        it("in the word indivisibility"){
             val word = CountingDuplicates("indivisibility")
 
             val result = word.countDuplicate()
@@ -26,7 +26,7 @@ class CountingDuplicatesShould : DescribeSpec({
             result.shouldBe(1)
         }
 
-        it("repeated in the word Indivisibilities"){
+        it("in the word Indivisibilities"){
             val word = CountingDuplicates("Indivisibilities")
 
             val result = word.countDuplicate()
@@ -34,7 +34,7 @@ class CountingDuplicatesShould : DescribeSpec({
             result.shouldBe(2)
         }
 
-        it("repeated in the word aA11"){
+        it("in the word aA11"){
             val word = CountingDuplicates("aA11")
 
             val result = word.countDuplicate()
@@ -42,7 +42,7 @@ class CountingDuplicatesShould : DescribeSpec({
             result.shouldBe(2)
         }
 
-        it("repeated in the word ABb4588lkkoopyy"){
+        it("in the word ABb4588lkkoopyy"){
             val word = CountingDuplicates("ABb4588lkkoopyy")
 
             val result = word.countDuplicate()
